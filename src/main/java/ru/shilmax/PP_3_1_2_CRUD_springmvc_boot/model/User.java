@@ -1,4 +1,4 @@
-package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.models;
+package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.model;
 
 
 import jakarta.persistence.*;

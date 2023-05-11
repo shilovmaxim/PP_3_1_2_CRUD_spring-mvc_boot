@@ -1,7 +1,7 @@
 package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.dao;
 
 
-import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.models.User;
+import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.model.User;
 
 import java.util.List;
 

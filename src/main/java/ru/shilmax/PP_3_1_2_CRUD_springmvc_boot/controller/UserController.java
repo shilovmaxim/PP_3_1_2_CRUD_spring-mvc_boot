@@ -1,12 +1,12 @@
-package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.controllers;
+package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.models.User;
-import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.services.UserService;
+import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.model.User;
+import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.service.UserService;
 
 
 @Controller

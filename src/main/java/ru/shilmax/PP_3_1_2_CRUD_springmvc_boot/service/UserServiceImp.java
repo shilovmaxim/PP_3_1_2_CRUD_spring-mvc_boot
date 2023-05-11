@@ -1,8 +1,8 @@
-package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.services;
+package ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.models.User;
+import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.model.User;
 import ru.shilmax.PP_3_1_2_CRUD_springmvc_boot.dao.UserDao;
 
 import java.util.List;
