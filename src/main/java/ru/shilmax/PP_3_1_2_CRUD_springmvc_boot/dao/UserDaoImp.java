@@ -15,7 +15,6 @@ public class UserDaoImp implements UserDao {
     @PersistenceContext
     private EntityManager entityManager;
 
-
     @Override
     public void add(User user) {
         entityManager.persist(user);
@@ -54,7 +53,7 @@ public class UserDaoImp implements UserDao {
 
     @Override
     public List<User> listUsers() {
-        return entityManager.createQuery("SELECT u FROM User u", User.class).getResultList();
+        return entityManager.createQuery("FROM User", User.class).getResultList();
     }
 
 }
